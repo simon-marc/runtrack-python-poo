@@ -23,8 +23,9 @@ class Voiture:
         print("Your tank contains",self.reservoir, "L")
 
 
-car = Voiture("Nissan","GT-R",2015,100000)
+car = Voiture("Nissan","GT-R",2010,49832)
 print(car.demarrer())
+print(car.arreter())
 print(car.verifier_reservoir())
 
 
