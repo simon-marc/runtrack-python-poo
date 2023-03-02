@@ -9,7 +9,6 @@ class Ville:
     def dispVille(self):
         print("Population de la ville de ", self.nomVille ,":",self.nombreHab, "habitants")
 
-
 class Personne:
     def __init__(self, nom , age , nom_ville):
         self.nomPers = nom_ville
